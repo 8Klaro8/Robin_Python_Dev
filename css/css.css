@@ -19,13 +19,13 @@ body {
 }
 .top-cloud{
     position: absolute;
-    left: 30%;
-    top: 30%;
+    left: 20%;
+    top: 40%;
 }
 .bottom-cloud{
     position: absolute;
     top: 10%;
-    right: 30%;
+    right: 20%;
 }
 .pro-span{
     text-decoration: underline;
@@ -45,6 +45,7 @@ body {
     margin: 190px 0 0 0;
 }
 .my_profil_pic{
+    width: 15%;
     border-radius: 100%;
     margin: 1% 0 0 0;
 }
@@ -54,7 +55,7 @@ h3{
 }
 p{
     line-height: 2;
-    color: black;
+    color: #787878;
 }
 h1{
     color: #66BFBF;
@@ -67,6 +68,9 @@ h2{
 }
 a {
     color: #11999E;
+}
+a:hover{
+    color: #EAF6F6;
 }
 /*
 .skill-pic{
@@ -90,8 +94,10 @@ a {
     margin-right: 30px;
 }
 .draw {
+    width: 40%;
     float: right;
-    margin-left: 30px;
+    margin-left: 10px;,
+
 }
 .btn {
   background: #66BFBF;
@@ -120,8 +126,9 @@ a {
   text-decoration: none;
 }
 hr {
-    border-top: 8px dotted #b3b3b3;
+    border: dotted #cfcfcf 7px;
     width: 4%;
+    border-bottom: none;
     margin: 100px auto;
 }
 .copy-right-text{
@@ -133,4 +140,17 @@ hr {
 }
 .p-over-button{
     margin-bottom: 60px;
+}
+.intro{
+    width: 40%;
+    margin: 0 auto;
+}
+.p-over-button{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.footer-link{
+    margin: 0 20px;
+    text-decoration: none;
 }
